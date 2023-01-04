@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card_container{  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 65vh;
+    width: 65vw;
+    border-radius: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 23% 54% 23%;
+    border-radius: 15px;
+}
+.card1{
+    background-color: rgb(194, 124, 3);
+}
+.card2{
+ background-color: rgb(18, 76, 78);
+}
+.card3{
+background-color: rgb(0, 42, 42);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.content{
+    width: 60%;
+    margin-left: 20%;
+}
+h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+p{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+button{
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+    margin-left: 60px;
+    border-color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    
+}
+.b1{
+    color: rgb(194, 124, 3);
+}
+.b2{
+    color: rgb(18, 76, 78);
+}
+.b3{
+    color: rgb(0, 42, 42);
+}
+button:hover{
+    background: none;
+    color: white;
+}

@@ -1,0 +1,19 @@
+@media screen and ( max-width :750px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container{
+        display: block;
+    }
+
+    .card_container{
+        display: block;
+        margin: auto auto; 
+    }
+    
+    .hg{
+        height: 60vh;
+    }
+}
